@@ -1,0 +1,25 @@
+{
+  "name": "genesis-object",
+  "version": "1.0.0",
+  "description": "simple js object templates with nesting, extension and method support Edit",
+  "main": "genesis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scoobah36/genesis-object.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "genesis",
+    "object"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scoobah36/genesis-object/issues"
+  },
+  "homepage": "https://github.com/scoobah36/genesis-object#readme"
+}
