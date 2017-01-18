@@ -1,4 +1,4 @@
-import _ from 'lodash'
+var _ = require('lodash')
 
 //allows objects to define genesis arrays that can be pushed
 Array.prototype.__genesis__;

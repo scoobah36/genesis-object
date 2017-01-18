@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/scoobah36/genesis-object/issues"
   },
-  "homepage": "https://github.com/scoobah36/genesis-object#readme"
+  "homepage": "https://github.com/scoobah36/genesis-object#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
 }
