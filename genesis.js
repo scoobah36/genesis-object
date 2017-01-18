@@ -12,7 +12,7 @@ Array.prototype.pushCreate = function(newItem){
     }
 }
 
-export default function(objectName, objectDefinition, extensions) {
+module.exports = function(objectName, objectDefinition, extensions) {
     
     var genesis = {
         __name__: objectName,
