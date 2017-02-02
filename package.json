@@ -1,6 +1,6 @@
 {
   "name": "genesis-object",
-  "version": "2",
+  "version": "2.0.0",
   "description": "simple js object templates with nesting, extension and method support Edit",
   "main": "genesis.js",
   "scripts": {
