@@ -12,10 +12,9 @@ Array.prototype.pushCreate = function(newItem){
     }
 }
 
-module.exports = function(objectName, objectDefinition, extensions) {
+module.exports = function(objectDefinition, extensions) {
     
     var genesis = {
-        __name__: objectName,
         __def__: objectDefinition,
         _isGenesis: true,
 
@@ -63,12 +62,11 @@ module.exports = function(objectName, objectDefinition, extensions) {
             }
 
             if (!obj) {
-                throw new Error('could not create property', genesis.__name__, genesis.__def__, data);
+                throw new Error('could not create property', genesis.__def__, data);
             }
 
             _.extend(obj, {
-                __uid__: Math.random(),
-                __name__: objectName
+                __uid__: Math.random()
             });
 
             // call obj.init
